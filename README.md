@@ -25,6 +25,10 @@ Coming soon...
 | JavaScript (ES6)| React Hooks (`useState`, `useEffect`) |                         |
 
 
+📊 Project Architecture
+Here’s a simple visual breakdown of the file and component structure:
+![App Structure Diagram] (https://ibb.co/9mtLd3X0)
+
 
 🧰 How to Run It Locally
 Here’s how we can get it up and running on our machine: http://localhost:5173/
