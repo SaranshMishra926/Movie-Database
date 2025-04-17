@@ -1,71 +1,92 @@
-🎬 MovieMania - Your Gateway to the Movie World
-Hey there 👋Welcome to MovieMania – a smooth, modern, and fun React app where you can explore movies like never before! Whether you're into the latest blockbusters, hidden gems, or upcoming releases, this app has you covered.
-Built using React + Tailwind + TMDb API, MovieMania is all about fast browsing, clean UI, and cool features. Check it out!
+🎬 MovieMania - React Movie App
+A modern and responsive movie browsing application built with React and powered by The Movie Database (TMDb) API.
+Explore trending, top-rated, and upcoming movies with a clean UI, detailed pages, and real-time search functionality.
 
 
-🚀 What Can You Do Here?
-1) Search movies instantly by typing in the search bar (real-time results)
-2) Switch between categories: Popular | Top Rated | Upcoming
-3) Enjoy a movie carousel using Swiper.js – great for showcasing top picks
-4) Check full movie details: poster, rating, genres, release date, runtime, and more
-5) Navigate smoothly with React Router (no page reloads!)
-6) Fully responsive design that looks great on mobile and desktop
-7) Clean and modular code using reusable components
+✨ Features
+🔍 Search movies by title with real-time filtering
+
+🎞️ Browse by categories: Popular, Top Rated, Upcoming
+
+🧭 Interactive movie carousel slider
+
+📄 Movie detail page with:
+   .Poster
+   .Ratings
+   .Overview
+   .Genres
+   .Runtime & Release date
+
+⚡ Live API data fetching from TMDb
+
+🌐 Smooth routing with React Router
+
+📱 Fully responsive UI using Tailwind CSS
 
 
-🎥 Demo
-Coming soon...
-
-
-⚙️ Tech Used
-| Frontend        | Libraries/Tools            | API                         |
-|-----------------|----------------------------|-----------------------------|
-| React.js        | React Router DOM           | [TMDb API](https://www.themoviedb.org/) |
-| Tailwind CSS    | Swiper.js (for carousel)   | REST API                    |
-| JavaScript (ES6)| React Hooks (`useState`, `useEffect`) |                         |
-
-
-📊 Project Architecture
-Here’s a simple visual breakdown of the file and component structure:
-![App Structure Diagram] (https://ibb.co/9mtLd3X0)
-
-
-🧰 How to Run It Locally
-Here’s how we can get it up and running on our machine: http://localhost:5173/
-
-
-🧠 Folder Structure
-src/
-├── components/
-│   ├── Header.jsx
-│   ├── Footer.jsx
-│   ├── MovieCard.jsx
-│   └── SearchBar.jsx
-├── pages/
-│   ├── Home.jsx
-│   └── MovieDetails.jsx
-├── App.jsx
-└── index.js
+🚀 Demo
+(coming soon...)
 
 
 📦 Installation & Setup
- Clone the repository: https://github.com/SaranshMishra926/Movie-Database.git
+🔧 Prerequisites
+Make sure you have installed:
+Node.js v14+
+npm v6+
 
 
-🙌 Contributing
-Feel free to fork the repo and submit a Pull Request. Suggestions, improvements, or bug fixes are always welcome!
+🔄 Steps
+# 1. Clone the repository
+https://github.com/SaranshMishra926/Movie-Database.git
+cd Movie-Database
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
+npm start
+
+Visit the app at: 👉 http://localhost:5173
+
+🗂️ Project Structure
+src/
+├── components/       # Header, Footer, MovieCard, SearchBar
+├── pages/            # Home.jsx, MovieDetails.jsx
+├── App.jsx           # Routes + layout
+├── main.jsx          # Entry point
+├── App.css / index.css
 
 
-📝 License
-This project is open-sourced under the MIT License.
+⚙️ Available Scripts
+
+Script                      	Description
+npm start                   	Run the app in development mode
+npm run                      build	Build the app for production
+npm test	                    Run tests (if configured)
+npm run                      eject	Eject from Create React App (CRA)
 
 
-📬 Made By
-Shikha, Saransh & Harsh! SE CSE Batch 2027 Roll no: 09,26,33.
+🛠️ Tech Stack
+React.js
+Tailwind CSS
+Swiper.js (carousel)
+React Router
+TMDb API (movie data)
+JavaScript (ES6)
 
 
-⭐ Don't forget to star this repo if you found it helpful!
-      
+🧠 Learning Highlights
+📡 API Integration with useEffect + async/await
+
+🧱 Component-based architecture
+
+🌀 Conditional rendering (e.g. loading states)
+
+🔀 Route-level data fetching (useParams)
+
+🎨 Custom responsive layout with Tailwind
 
 
+📜 License
+This project is open-source and free to use.
 
