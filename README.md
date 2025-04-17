@@ -49,12 +49,18 @@ npm start
 Visit the app at: 👉 http://localhost:5173
 
 🗂️ Project Structure
-src/
-├── components/       # Header, Footer, MovieCard, SearchBar
-├── pages/            # Home.jsx, MovieDetails.jsx
-├── App.jsx           # Routes + layout
-├── main.jsx          # Entry point
-├── App.css / index.css
+📁 src
+├── components        # Reusable UI parts
+│   ├── Header.jsx
+│   ├── Footer.jsx
+│   ├── MovieCard.jsx
+│   └── SearchBar.jsx
+├── pages             # Route-based views
+│   ├── Home.jsx
+│   └── MovieDetails.jsx
+├── App.jsx           # Routes setup
+└── index.js          # Entry point
+
 
 
 ⚙️ Available Scripts
