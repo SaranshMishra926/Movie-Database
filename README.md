@@ -1,98 +1,78 @@
 🎬 MovieMania - React Movie App
-A modern and responsive movie browsing application built with React and powered by The Movie Database (TMDb) API.
-Explore trending, top-rated, and upcoming movies with a clean UI, detailed pages, and real-time search functionality.
+A modern and elegant movie browsing app built with React. Explore popular, top-rated, and upcoming movies fetched in real-time from The Movie Database (TMDb). MovieMania offers an engaging and responsive user experience with smooth navigation and sleek UI.
+
+🚀 Features
+🔍 Search movies by title
+
+🧭 Explore Popular, Top Rated, and Upcoming categories
+
+🎞️ Swiper carousel for featured titles
+
+📄 View detailed movie info: poster, genre, ratings, runtime
+
+🧩 Modular components for easy reuse
+
+🌐 Live API data fetching
+
+📱 Responsive design using Tailwind CSS
 
 
-✨ Features
-🔍 Search movies by title with real-time filtering
+🛠️ Installation
+Clone the repository:
 
-🎞️ Browse by categories: Popular, Top Rated, Upcoming
+bash
+Copy
+Edit
+git clone https://github.com/your-username/moviemania.git
+cd moviemania
+Install dependencies:
 
-🧭 Interactive movie carousel slider
-
-📄 Movie detail page with:
-   .Poster
-   .Ratings
-   .Overview
-   .Genres
-   .Runtime & Release date
-
-⚡ Live API data fetching from TMDb
-
-🌐 Smooth routing with React Router
-
-📱 Fully responsive UI using Tailwind CSS
-
-
-🚀 Demo
-(coming soon...)
-
-
-📦 Installation & Setup
-🔧 Prerequisites
-Make sure you have installed:
-Node.js v14+
-npm v6+
-
-
-🔄 Steps
-# 1. Clone the repository
-https://github.com/SaranshMishra926/Movie-Database.git
-cd Movie-Database
-
-# 2. Install dependencies
+bash
+Copy
+Edit
 npm install
+Start the development server:
 
-# 3. Start the development server
-npm start
+bash
+Copy
+Edit
+npm run dev
+Visit in your browser:
 
-Visit the app at: 👉 http://localhost:5173
-
+arduino
+Copy
+Edit
+http://localhost:5173
 🗂️ Project Structure
-📁 src
-├── components        # Reusable UI parts
-│   ├── Header.jsx
-│   ├── Footer.jsx
-│   ├── MovieCard.jsx
-│   └── SearchBar.jsx
-├── pages             # Route-based views
-│   ├── Home.jsx
-│   └── MovieDetails.jsx
-├── App.jsx           # Routes setup
-└── index.js          # Entry point
+bash
+Copy
+Edit
+moviemania/
+├── public/                  # Static files (e.g., vite.svg)
+├── src/
+│   ├── assets/              # Images, icons, etc.
+│   ├── components/          # Header, Footer, MovieCard, SearchBar
+│   ├── pages/               # Home.jsx, MovieDetails.jsx
+│   ├── App.jsx              # Main component with routes
+│   ├── App.css              # Global styles
+│   ├── index.css            # Tailwind config CSS
+│   └── main.jsx             # App entry point
+├── vite.config.js           # Vite configuration
+└── package.json             # Dependencies and scripts
+📜 Available Scripts
+npm run dev – Runs app in development mode
 
+npm run build – Builds app for production
 
+npm run preview – Previews production build locally
 
-⚙️ Available Scripts
-
-Script                      	Description
-npm start                   	Run the app in development mode
-npm run                      build	Build the app for production
-npm test	                    Run tests (if configured)
-npm run                      eject	Eject from Create React App (CRA)
-
-
-🛠️ Tech Stack
+🧰 Tech Stack
 React.js
+
 Tailwind CSS
-Swiper.js (carousel)
-React Router
-TMDb API (movie data)
-JavaScript (ES6)
 
+Vite (Lightning-fast dev server)
 
-🧠 Learning Highlights
-📡 API Integration with useEffect + async/await
+Swiper.js for movie carousels
 
-🧱 Component-based architecture
-
-🌀 Conditional rendering (e.g. loading states)
-
-🔀 Route-level data fetching (useParams)
-
-🎨 Custom responsive layout with Tailwind
-
-
-📜 License
-This project is open-source and free to use.
-
+TMDb API for fetching movie data
