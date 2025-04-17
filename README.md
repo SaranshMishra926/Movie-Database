@@ -22,7 +22,8 @@ A modern and elegant movie browsing app built with React. Explore popular, top-r
 Clone the repository:
 
 git clone https://github.com/SaranshMishra926/Movie-Database.git
-cd moviemania
+cd Movie-Database
+
 Install dependencies:
 
 npm install
